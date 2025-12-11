@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 350px;
+}
+
+#player-input input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
